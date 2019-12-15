@@ -30,11 +30,12 @@
 <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark narbar-static-top">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top narbar-static-top">
 
 	<!-- Logo -->
-	<a class="navbar-brand" href="#">
-		<img src="images/logo.png" alt="Logo" style="width:60px;">
+	<a class="navbar-brand" href="index.html">
+		<img src="images/logo.png" alt="Logo" style="width:60px; padding-right:10px">
+    Homegrown Watch Straps
 	</a>
    
 	<!-- Toggler/collapsibe Button -->
@@ -43,19 +44,19 @@
 	</button>
 
 	<!-- Links -->
-	<div class="collapse navbar-collapse" id="collapsibleNavbar">
-		<ul class="navbar-nav">
+	<div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+		<ul class="navbar-nav text-right">
 			<li class="nav-item">
-			  <a class="nav-link" href='index.html'>Home</a>
+			  <a class="nav-link" href="index.html">Home</a>
 			</li>
 			<li class="nav-item">
-			  <a class="nav-link" href="#">About Us</a>
+			  <a class="nav-link" href="about.html">About Us</a>
 			</li>
+      <li class="nav-item">
+        <a class="nav-link" href="straps.html">Our Straps</a>
+      </li>
 			<li class="nav-item">
-			  <a class="nav-link" href="#">Customise Your Strap</a>
-			</li>
-			<li class="nav-item active">
-			  <a class="nav-link" href="#">Make an Order</a>
+			  <a class="nav-link active" href="#">Make an Enquiry</a>
 			</li>
 		</ul>
 	</div> 
@@ -63,8 +64,8 @@
 </nav>
 
 <!-- Order Form -->
-<div class="container mb-4 pt-4">
-	<h5>Select the attributes of your custom watch strap below.</h5>
+<div class="container mb-4">
+	<h5 style="padding-top: 70px">Select the attributes of your custom watch strap below</h5>
 	  
 	<form action="https://formspree.io/mjhperkins@gmail.com" method="POST">
 	
@@ -112,8 +113,8 @@
 		
 		<!-- Submit -->
 		<div class="col-sm-offset-2 col-sm-10">
-			<p>Once you submit the form we'll be in touch via email to confirm your order details and arrange payment.</p>
-			<button type="submit" class="btn btn-primary">Submit your order details</button>
+			<p>Submit your enquiry we'll be in touch via email.</p>
+			<button type="submit" class="btn btn-primary">Submit your enquiry</button>
 		</div>
 		
 	</form>
@@ -123,7 +124,7 @@
 <!-- Footer -->
 <footer class="page-footer font-small bg-dark text-light">
   <div class="footer-copyright text-center py-3">© Homegrown Watch Straps, Melbourne, Australia.
-    <a href="mailto:contact@greydogstraps.com"> Contact Us</a>
+    <a href="mailto:contact@homegrownstraps.com"> Contact Us</a>
   </div>
 </footer>
 
