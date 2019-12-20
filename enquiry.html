@@ -33,7 +33,7 @@
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top narbar-static-top">
 
 	<!-- Logo -->
-	<a class="navbar-brand" href="index.html">
+	<a class="navbar-brand" href="www.homegrownstraps.com">
 		<img src="images/logo.png" alt="Logo" style="width:70px; padding-right:5px">
     Homegrown Straps
 	</a>
@@ -47,16 +47,16 @@
 	<div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
 		<ul class="navbar-nav text-right">
 			<li class="nav-item">
-			  <a class="nav-link" href="index.html">Home</a>
-			</li>
-			<li class="nav-item">
 			  <a class="nav-link" href="about.html">About Us</a>
 			</li>
-      <li class="nav-item">
-        <a class="nav-link" href="straps.html">Our Watch Straps</a>
-      </li>
+      		<li class="nav-item">
+        		<a class="nav-link" href="straps.html">Our Watch Straps</a>
+    		</li>
+    		<li class="nav-item">
+    			<a class="nav-link" href="www.instagram.com/homegrown.straps" target="_blank">Instragram</a>
+    		</li>
 			<li class="nav-item active">
-			  <a class="nav-link" href="#">Make an Enquiry</a>
+				<a class="nav-link" href="enquiry.html">Make an Enquiry</a>
 			</li>
 		</ul>
 	</div> 
@@ -70,38 +70,60 @@
 	<form action="https://formspree.io/mjhperkins@gmail.com" method="POST">
 	
 		<!-- Leather Colour -->
-		<div class="form-horizontal">
-			<label class="control-label col-sm-2" for="leathercolour">Leather Colour:</label>
-			<div class="form-check">
-			  <input class="form-check-input" type="radio" name="leathercolour" id="leathercolourbrown" value="brown" checked>
-			  <label class="form-check-label" for="leathercolourbrown">
-				Brown
-			  </label>
-			</div>
-			<div class="form-check mb-4">
-			  <input class="form-check-input" type="radio" name="leathercolour" id="leathercolourblack" value="blue">
-			  <label class="form-check-label" for="leathercolourblue">
-				Blue
-			  </label>
-			</div>
-		</div>
-	
-		<!-- Style -->
-		<div class="form-horizontal">
-			<label class="control-label col-sm-2" for="style">Band Style:</label>
-			<div class="form-check">
-				<input class="form-check-input" type="radio" name="style" id="styleclassic" value="classic" checked>
-				<label class="form-check-label" for="styleclassic">
-				Classic
-				</label>
-			</div>
-			<div class="form-check mb-4">
-				<input class="form-check-input" type="radio" name="style" id="racing" value="racing">
-				<label class="form-check-label" for="racing">
-				Racing
-				</label>
-			</div>
-		</div>
+		 <div class="form-group">
+    		<label for="leather_colour">Leather Colour:</label>
+    		<select class="form-control" id="leather_colour">
+     			<option>Brown</option>
+     			<option>Navy</option>
+    		</select>
+  		</div>
+
+		<!-- Band Style -->
+		 <div class="form-group">
+    		<label for="band_style">Band Style:</label>
+    		<select class="form-control" id="band_style">
+     			<option>Classic</option>
+     			<option>Racing</option>
+    		</select>
+  		</div>
+
+		<!-- Stitching Style -->
+		 <div class="form-group">
+    		<label for="stitching_style">Stitching Style:</label>
+    		<select class="form-control" id="stitching_style">
+     			<option>Corners</option>
+     			<option>Along end</option>
+     			<option>No stitching</option>
+    		</select>
+  		</div>
+
+		<!-- Stitching Colour -->
+		 <div class="form-group">
+    		<label for="stitching_colour">Stitching Colour:</label>
+    		<select class="form-control" id="stitching_colour">
+     			<option>Cream</option>
+     			<option>White</option>
+     			<option>Black</option>
+     			<option>Red</option>
+     			<option>Blue</option>
+     			<option>None</option>
+    		</select>
+  		</div>
+
+		<!-- Lug Width -->
+		 <div class="form-group">
+    		<label for="lug_width">Lug Width:</label>
+    		<select class="form-control" id="lug_width">
+     			<option>17mm</option>
+     			<option>18mm</option>
+     			<option>19mm</option>
+     			<option>20mm</option>
+     			<option>21mm</option>
+     			<option>22mm</option>
+     			<option>23mm</option>
+     			<option>Other</option>
+    		</select>
+  		</div>
 
 		<!-- Email -->
 		<div class="form-group">
@@ -113,7 +135,7 @@
 		
 		<!-- Submit -->
 		<div class="col-sm-offset-2 col-sm-10">
-			<p>Submit your enquiry we'll be in touch via email.</p>
+			<p>Submit your enquiry we'll be in touch via email. You will be directed to a form submission page.</p>
 			<button type="submit" class="btn btn-primary">Submit your enquiry</button>
 		</div>
 		
