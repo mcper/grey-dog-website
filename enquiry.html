@@ -63,85 +63,166 @@
 
 </nav>
 
-<!-- Order Form -->
-<div class="container mb-4">
-	<h4 style="padding-top: 80px">Customising your Watch Strap</h4>
-	<p>Our watch straps are made-to-order following your exact requirements. Select from the attributes below to customise your strap.
-	<br>We charge $150 USD per strap including shipping. Straps typically take 12 weeks to produce and ship to you.</p>	  
+<!-- Content-->
+<div class="container mb-4" style="padding-top: 75px">
+
+	<!-- Heading-->
+	<div class="row mb-2">
+		<div class="col-md-12">
+			<h4">Customising your Watch Strap</h4>
+		</div>
+	</div>
+
+	<!-- Description-->
+	<div class="row mb-3">
+		<div class="col-md-12">
+			<p>Our watch straps are made-to-order following your exact requirements. Select from the attributes below to customise your strap.
+			<br>We charge $150 USD per strap including shipping. Straps typically take 12 weeks to produce.</p>
+		</div>
+	</div>
+
+	<!-- Form-->
 	<form action="https://formspree.io/mjhperkins@gmail.com" method="POST">
 	
 		<!-- Leather Colour -->
-		<h5>Leather Colour</h5>
-		<img scr="images/Hero_1.jpg" alt="Leather colour options" class="rounded float-left" style="width:300px">
-		
-		<div class="form-group">
-    		<select class="form-control" id="leather_colour" name='Leather_colour'>
-     			<option value="Brown">Brown</option>
-     			<option value="Navy">Navy</option>
-    		</select>
-  		</div>
+		<div class="row mb-4">
+			
+			<div class="col-md-6">
+				<h5>Leather Colour</h5>
+				<p>We offer brown and blue leather options as shown in the photo.
+				<br>All bands come with a black inner lining.</p>
+				<div class="form-group">
+					<select class="form-control" id="leather_colour" name='Leather_colour'>
+	     				<option value="Brown">Brown</option>
+	     				<option value="Navy">Navy</option>
+	    			</select>
+	    		</div>
+			</div>
 
-		<!-- Band Style -->
-		 <div class="form-group">
-    		<label for="band_style">Band Style:</label>
-    		<select class="form-control" id="band_style" name="Band_style">
-     			<option value="Classic">Classic</option>
-     			<option value="Racing">Racing</option>
-    		</select>
-  		</div>
+			<div class="col-md-4">
+      			<img src="images/Hero_3.jpg" alt="Leather colour options" class="img-fluid w-100">
+    		</div>
 
-		<!-- Stitching Style -->
-		 <div class="form-group">
-    		<label for="stitching_style">Stitching Style:</label>
-    		<select class="form-control" id="stitching_style" name="Stitching_style">
-     			<option value="Corners">Corners</option>
-     			<option value="Along end">Along end</option>
-     			<option value="No stitching">No stitching</option>
-    		</select>
-  		</div>
-
-		<!-- Stitching Colour -->
-		 <div class="form-group">
-    		<label for="stitching_colour">Stitching Colour:</label>
-    		<select class="form-control" id="stitching_colour" name="Stitching_colour">
-     			<option value="Cream">Cream</option>
-     			<option value="White">White</option>
-     			<option value="Black">Black</option>
-     			<option value="Red">Red</option>
-     			<option value="Blue">Blue</option>
-     			<option value="None">None</option>
-    		</select>
-  		</div>
-
-		<!-- Lug Width -->
-		 <div class="form-group">
-    		<label for="lug_width">Lug Width:</label>
-    		<select class="form-control" id="lug_width" name="Lug_width">
-     			<option value="17">17mm</option>
-     			<option value="18">18mm</option>
-     			<option value="19">19mm</option>
-     			<option value="20">20mm</option>
-     			<option value="21">21mm</option>
-     			<option value="22">22mm</option>
-     			<option value="23">23mm</option>
-     			<option value="Other">Other</option>
-    		</select>
-  		</div>
-
-  		<!-- Name -->
-		<div class="form-group">
-			<input type="text" class="form-control" id="name" placeholder="Enter your name" name="Name" required>
 		</div>
 
-		<!-- Email -->
-		<div class="form-group">
-			<input type="email" class="form-control" id="email" placeholder="Enter your email" name="Email" required>
+
+		<!-- Band Style -->
+		<div class="row mb-4">
+
+			<div class="col-md-6">
+				<h5>Band Style</h5>
+				<p>We offer classic and racing style straps, all with a tapered design.
+				<br>Classic is shown on the left, and racing on the right.</p>
+				<div class="form-group">
+		    		<select class="form-control" id="band_style" name="Band_style">
+		     			<option value="Classic">Classic</option>
+		     			<option value="Racing">Racing</option>
+		    		</select>
+		  		</div>
+			</div>
+
+			<div class="col-md-4">
+      			<img src="images/Hero_3.jpg" alt="Band style options" class="img-fluid w-100">
+    		</div>
+
+		</div>
+
+		<!-- Stitching Style -->
+		<div class="row mb-4">
+
+			<div class="col-md-6">
+				<h5>Stitching Style</h5>
+				<p>We can stitch our straps at the top and bottom.
+				<br>Corner sitiching is shown on the left.
+				<br>End to end stitching is shown on the right.</p>
+				<div class="form-group">
+		    		<select class="form-control" id="stitching_style" name="Stitching_style">
+		     			<option value="Corners">Corners</option>
+		     			<option value="Along end">Along end</option>
+		     			<option value="No stitching">No stitching</option>
+		    		</select>
+		  		</div>
+			</div>
+
+			<div class="col-md-4">
+      			<img src="images/Hero_3.jpg" alt="Stitching style options" class="img-fluid w-100">
+    		</div>
+
+		</div>
+
+		<!-- Stitching Colour -->
+		<div class="row mb-4">
+
+			<div class="col-md-6">
+				<h5>Stitching Colour</h5>
+				<p>Choose the thread colour of the stitching.
+				<br>Options in the order below showin in the photo.
+				<div class="form-group">
+		    		<select class="form-control" id="stitching_colour" name="Stitching_colour">
+		     			<option value="Cream">Cream</option>
+		     			<option value="White">White</option>
+		     			<option value="Black">Black</option>
+		     			<option value="Red">Red</option>
+		     			<option value="Blue">Blue</option>
+		     			<option value="None">None</option>
+		    		</select>
+		  		</div>
+			</div>
+
+			<div class="col-md-4">
+      			<img src="images/Hero_3.jpg" alt="Stitching colour options" class="img-fluid w-100">
+    		</div>
+
+		</div>
+
+		<!-- Lug Width -->
+		<div class="row mb-4">
+
+			<div class="col-md-6">
+				<h5>Lug Width</h5>
+				<p>Tell us the lug width of your watch to ensure a perfect fit.
+				<br>Measurement of a Speedmaster is shown for reference.
+				<div class="form-group">
+		    		<select class="form-control" id="lug_width" name="Lug_width">
+		     			<option value="17">17mm</option>
+		     			<option value="18">18mm</option>
+		     			<option value="19">19mm</option>
+		     			<option value="20">20mm</option>
+		     			<option value="21">21mm</option>
+		     			<option value="22">22mm</option>
+		     			<option value="23">23mm</option>
+		     			<option value="Other">Other</option>
+		    		</select>
+		  		</div>
+			</div>
+
+			<div class="col-md-4">
+      			<img src="images/Hero_3.jpg" alt="Lug width" class="img-fluid w-100">
+    		</div>
+
+		</div>
+
+  		<!-- Personal details -->
+  		<div class="row">
+  			<div class="col-md-6">
+  				<h5>Your Details</h5>
+	  			<div class="form-group">
+					<input type="text" class="form-control" id="name" placeholder="Enter your name" name="Name" required>
+				</div>
+				<div class="form-group">
+					<input type="email" class="form-control" id="email" placeholder="Enter your email" name="Email" required>
+				</div>
+			</div>
 		</div>
 		
 		<!-- Submit -->
-		<p>Submit your enquiry we'll be in touch via email. We will work with you to ensure everything is perfect before you order.</p>
-		<button type="submit" class="btn btn-primary">Submit an enquiry</button>
-		<p><br>You will be directed to a form submission page.</p>
+		<div class="row mb-4">
+			<div class="col-md-12">
+				<p>Submit your enquiry we'll be in touch via email. We will work with you to ensure everything is perfect before you order.</p>
+				<button type="submit" class="btn btn-primary">Submit an enquiry</button>
+				<p><br>You will be directed to a form submission page.</p>
+			</div>
+		</div>
 		
 	</form>
 </div>
